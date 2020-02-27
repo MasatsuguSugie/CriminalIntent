@@ -1,0 +1,26 @@
+package edu.vt.cs.cs5254.criminalintent
+
+import android.util.Log
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+
+//private const val TAG = "CrimeAdapter"
+//
+//class CrimeAdapter(var crimes: List<Crime>) : RecyclerView.Adapter<CrimeHolder>() {
+//
+//    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CrimeHolder {
+//        val inflater = LayoutInflater.from(parent.context)
+//        val view =
+//            inflater.inflate(R.layout.list_item_crime, parent, false)
+//        Log.d(TAG, "onCreateViewHolder")
+//        return CrimeHolder(view)
+//    }
+//
+//    override fun getItemCount() = crimes.size
+//
+//    override fun onBindViewHolder(holder: CrimeHolder, position: Int) {
+//        val crime = crimes[position]
+//        holder.bind(crime)
+//    }
+//}
